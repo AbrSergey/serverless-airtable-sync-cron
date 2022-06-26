@@ -15,7 +15,7 @@ class AirtableSyncCron {
 
     await Promise.all(
       data.map(({ table, records }) => {
-        // save to your private db
+        // save to your private database
 
         this.logger.info(`migrated ${table} count = ${records.length}`);
       }),
