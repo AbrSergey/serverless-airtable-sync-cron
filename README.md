@@ -2,6 +2,18 @@
 
 **Cron lambda for synchronization AirTable bases with your private database**
 
+## Description
+
+Airtable public API has a rate limit of 5 requests per second, per base.
+
+In many cases it is necessary to synchronize Airtable records with your private database.
+
+This Lambda is an example of how data can be synchronized if changes occur only in Airtable.
+
+## Tech stack
+
+AWS Lambda with Serverless framework on Node.js/Typescript
+
 ## Instructions
 
 1. `npm install -g serverless` - install Serverless framework globally
